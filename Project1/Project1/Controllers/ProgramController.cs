@@ -17,11 +17,11 @@ namespace Project1.Controllers
 
         public ActionResult ProgramView(string ProName, string InternName, string AgeGroup, string WeekdayTime, string ProDesc)
         {
-            Viewbag.ProName = ProName;
-            Viewbag.InternName = InternName;
-            Viewbag.AgeGroup = AgeGroup;
-            Viewbag.WeekdayTime = WeekdayTime;
-            Viewbag.ProDesc = ProDesc;
+            ViewBag.ProName = ProName;
+            ViewBag.InternName = InternName;
+            ViewBag.AgeGroup = AgeGroup;
+            ViewBag.WeekdayTime = WeekdayTime;
+            ViewBag.ProDesc = ProDesc;
 
             return View();
         }
