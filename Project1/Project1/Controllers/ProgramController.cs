@@ -9,13 +9,20 @@ namespace Project1.Controllers
     public class ProgramController : Controller
     {
         // GET: Program
-        public ActionResult Index()
+        public ActionResult Program()
         {
+
             return View();
         }
 
-        public ActionResult Index()
+        public ActionResult ProgramView(string ProName, string InternName, string AgeGroup, string WeekdayTime, string ProDesc)
         {
+            Viewbag.ProName = ProName;
+            Viewbag.InternName = InternName;
+            Viewbag.AgeGroup = AgeGroup;
+            Viewbag.WeekdayTime = WeekdayTime;
+            Viewbag.ProDesc = ProDesc;
+
             return View();
         }
     }
