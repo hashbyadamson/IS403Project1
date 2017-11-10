@@ -4,12 +4,7 @@
 }
 
 <h2>Program</h2>
-here are your parameters:
-@{
-    Viewbag.ProName;
-    Viewbag.InternName;
-    Viewbag.AgeGroup;
-    Viewbag.WeekdayTime;
-    Viewbag.ProDesc;
-}
 
+
+<a href="@Url.Action("ProgramView", "Program", new {ProName = "Zumba", InternName = "Jessica Keele", AgeGroup = "Adults - All Ages", WeekdayTime = "Tuesdays at 7:00 PM ", ProDesc = "Come learn a fun way to dance and get fit. Zumba combines dance and exercise to help you have fun while you are trying to reach your goals!"})">
+<h2>Zumba</h2></a>
