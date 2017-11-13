@@ -153,7 +153,9 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Images\SFCCLogo.png" />
+    <Content Include="Content\Images\south franklin.png" />
     <Content Include="Content\Images\Zumba.jpg" />
+    <Content Include="Content\myStyle.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />

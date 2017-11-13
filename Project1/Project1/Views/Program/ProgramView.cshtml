@@ -131,12 +131,12 @@
 <!--Form for Questions and Responses-->
 <div class="row">
     <div class="col-md-6 col-sm-6 col-lg-6" align="center">
-        <br /><br /><br />
+        <br /><br />
         <h2>Questions or Concerns?</h2>
         <h3>Please leave a comment below and one of our interns will reply.</h3>
     </div>
     <div class="col-md-6 col-sm-6 col-lg-6" align="center">
-        <br />
+        <br /><br />
         <img src="~/Content/Images/SFCCLogo.png" style="width:300px;" />
     </div>
 </div>
@@ -152,17 +152,19 @@
         {
            
             <label for="inputComment" class="sr-only">Comment</label>
-            @Html.TextArea("Comment", "", new { placeholder = "Please Comment Here....", autofocus = true, style = "height: 100px; width: 800px;" })
+            @Html.TextArea("Comment", "", new { placeholder = "Please Comment Here....", style = "height: 100px; width: 800px;" })
             <br />
             <input class="btn btn-sm btn-primary btn-block" type="submit" value="Comment"/>
-            <input class="btn btn-sm btn-primary btn-block" type="submit" value="Reply"/>
-       
+            <br />
+            <input class="btn btn-sm btn-primary btn-block" type="submit" value="Relply to this Comment" />
+
         }
+
 
     </div>
 </div>
 
-
+<!--Footer-->
 <div class="container body-content">
     <hr />
     <footer class="myFooterText" align="center">
