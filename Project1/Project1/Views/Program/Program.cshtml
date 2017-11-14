@@ -5,6 +5,17 @@
 
 <h2>Program</h2>
 
-@Html.DropDownList("ProgramChoice", (IEnumerable<SelectListItem>)ViewBag.program, "Select a program")
+@using (Html.BeginForm("ProgramView", "Program"))
+{
+    <fieldset>
+        Program
+        @Html.DropDownList("ProgramList")
+        <p>
+            <input type="submit" value="Submit" />
+        </p>
+    </fieldset>
+} 
+
+
 
 
