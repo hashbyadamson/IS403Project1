@@ -43,6 +43,8 @@ namespace Project1.Controllers
             ViewBag.WeekdayTime = WeekdayTime;
             ViewBag.ProDesc = ProDesc;
 
+            ViewBag.ProNameZumba = "Zumba";
+
             return View();
         }
     }

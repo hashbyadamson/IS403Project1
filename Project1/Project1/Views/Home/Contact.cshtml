@@ -12,13 +12,22 @@
         <img class="img-rounded" src="~/Content/Images/south franklin.png" style="width:400px; height:250px" />
     </div>
     <div class="col-md-6">
+        <style>
+            p{
+                margin: 0;
+            }
+
+            .col-md-6{
+                justify-content: center;
+            }
+        </style>
         @using (Html.BeginForm())
         {
             <div class="form-horizontal">
                 <h3>Send us a Message</h3>
                 <div class="form-group">
 
-                    <label for="inputName" class="sr-only">Name</label>
+                    <label for="inputName" class="sr-only" style="margin-left:0p">Name</label>
                     @Html.TextBox("Name", "", new { type = "name", id = "inputName", @class = "form-control", placeholder = "Name", required = true, autofocus = true })
                     <label for="inputEmail" class="sr-only">Email Address</label>
                     @Html.TextBox("Email address", "", new { type = "email", id = "inputEmail", @class = "form-control", placeholder = "Email Address", required = true, autofocus = true })
