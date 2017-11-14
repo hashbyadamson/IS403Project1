@@ -154,6 +154,8 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Images\Capture.PNG" />
+    <Content Include="Content\Images\seamlesstexture7_1200.jpg" />
     <Content Include="Content\Images\SFCCLogo.png" />
     <Content Include="Content\Images\south franklin.png" />
     <Content Include="Content\Images\Zumba.jpg" />
